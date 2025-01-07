@@ -18,6 +18,8 @@ body {
   width: 40.5%;
   min-width: 200px;
   max-width: 80%;
+  border: 2px black solid;
+  border-radius: 10px;
 } 
 
 .login-box {
@@ -34,6 +36,15 @@ h2 {
 
   text-decoration: underline black;
   margin: 2px 0 5px 0;
+}
+
+input{
+  
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-top:5px;
+  
 }
 
 .image {

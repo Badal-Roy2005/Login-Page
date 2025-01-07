@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* background: yellow; */
+  display: flex;
+  height: 250px;
+  width: 40.5%;
+  min-width: 200px;
+  max-width: 80%;
+} 
+
+.login-box {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1rem;
+
+  text-decoration: underline black;
+  margin: 2px 0 5px 0;
+}
+
+.image {
+  background-color: lightcyan;
+  width: 50%;
+  height: 100%;
+}
